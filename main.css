@@ -39,6 +39,21 @@ section h2 {
   margin-bottom: 20px;
 }
 
+.project img {
+  max-width: 100%;
+}
+
+.project .project-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.project .project-description {
+  font-size: 14px;
+  color: #777;
+}
+
 footer {
   background-color: #f8f8f8;
   color: #000;
@@ -55,6 +70,27 @@ footer ul {
 footer ul li {
   display: inline;
   margin-right: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #666;
 }
 
 
