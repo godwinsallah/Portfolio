@@ -42,6 +42,7 @@ section h2 {
 
 .project img {
   max-width: 100%;
+  border-radius: 5%;
 }
 
 .project .project-title {
